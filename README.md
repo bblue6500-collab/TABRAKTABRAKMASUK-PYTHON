@@ -1,7 +1,7 @@
 # SiPintar - Asisten Belajar Pintar Berbasis AI
 
 ## Latar Belakang
-Banyak siswa SMA/SMK kesulitan belajar mandiri karena penjelasan buku sulit dipahami, tidak ada yang ditanya malam-malam, dan guru sulit membuat soal baru. SiPintar hadir menggunakan Artificial Intelligence (Google Gemini) untuk membantu menjawab soal, meringkas materi, membuat soal latihan, dan menerjemahkan bahasa Inggris dengan penjelasan.
+Dalam proses pembelajaran, banyak siswa mengalami kesulitan ketika harus mencari penjelasan cepat, memahami materi yang panjang, atau menerjemahkan teks berbahasa Inggris. Aplikasi yang tersedia saat ini sering kali hanya menawarkan satu fungsi, sehingga siswa perlu berganti-ganti platform untuk memenuhi kebutuhan belajar mereka. Kondisi ini kurang efisien dan dapat menghambat pemahaman materi. Berdasarkan permasalahan tersebut, SiPintar dikembangkan sebagai asisten bot pintar berbasis Python yang mampu menyediakan berbagai kebutuhan belajar dalam satu aplikasi, sehingga proses belajar menjadi lebih mudah, cepat, dan efektif.
 
 ## Permasalahan yang Dijawab
 - Sulit memahami materi pelajaran sendirian
@@ -61,4 +61,5 @@ Troubleshooting
 - For local debugging, check your virtual environment and ensure `python` used to run Streamlit is the same interpreter that has the packages installed.
 
 Security note
+
 - Do not commit your `.env` file or API key to source control. Use environment variables for deployments and secrets managers for production.
